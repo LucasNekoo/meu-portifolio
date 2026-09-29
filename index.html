@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>George Lucas Ferreira da Luz — Portfólio</title>
+<meta name="description" content="Portfólio de George Lucas Ferreira da Luz — Tecnologia da Informação, Recife-PE.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%232454E0'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='24' fill='%23FFFFFF' text-anchor='middle'%3EGL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cabeçalho fixo com o menu de navegação -->
+<header>
+  <div class="nav-row">
+    <a href="#inicio" class="brand">George Lucas</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks"><span></span></button>
+    <nav class="links" id="navLinks">
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#formacao">Formação</a>
+      <a href="#certificados">Certificados</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- Início: foto, nome, cargo e contatos rápidos -->
+  <section id="inicio" style="border-top:none;">
+    <div class="wrap">
+      <div class="avatar fade-in">
+        <img src="assets/foto.jpg" alt="Foto de George Lucas Ferreira da Luz" width="240" height="240">
+      </div>
+      <h1 class="hero-name fade-in">George Lucas Ferreira da Luz</h1>
+      <p class="hero-role fade-in">Desenvolvedor Back-End</p>
+      <p class="hero-tagline fade-in">Formado em Análise e Desenvolvimento de Sistemas, buscando minha primeira oportunidade como desenvolvedor — com base em lógica de programação, estruturas de dados e análise de sistemas.</p>
+
+      <div class="hero-actions fade-in">
+        <a href="#contato" class="btn primary">Falar comigo</a>
+        <a id="downloadCv" class="btn" href="assets/curriculo.pdf" download="George_Lucas_CV.pdf">Baixar currículo</a>
+      </div>
+
+      <div class="contact-strip fade-in">
+        <a href="mailto:georgelucasluz@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>
+          georgelucasluz@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/georgelucasluz/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 13v4"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/LucasNekoo" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/></svg>
+          GitHub
+        </a>
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          Recife, PE
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre / objetivo profissional -->
+  <section id="sobre">
+    <div class="wrap">
+      <div class="sec-head"><h2>Sobre</h2></div>
+      <p>Atuar na área de tecnologia, aplicando conhecimentos em lógica de programação e análise de sistemas, contribuindo para a eficiência dos processos.</p>
+    </div>
+  </section>
+
+  <!-- Habilidades técnicas e comportamentais -->
+  <section id="habilidades">
+    <div class="wrap">
+      <div class="sec-head"><h2>Habilidades</h2></div>
+      <div class="skill-group">
+        <div class="skill-label">Técnicas</div>
+        <div class="tags">
+          <span class="tag">Lógica de programação</span>
+          <span class="tag">Estruturas de dados</span>
+          <span class="tag">Linguagem de Programação</span>
+          <span class="tag">Inglês Intermediário</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-label">Comportamentais</div>
+        <div class="tags">
+          <span class="tag">Disponibilidade de horários</span>
+          <span class="tag">Trabalho em equipe</span>
+          <span class="tag">Análise de riscos</span>
+          <span class="tag">Comunicação</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos em destaque, com vídeos e links -->
+  <section id="projetos">
+    <div class="wrap">
+      <div class="sec-head"><h2>Projetos</h2></div>
+
+      <div class="project-card">
+        <span class="project-badge">Projeto destaque — Pró-Profissão 2023</span>
+        <div class="project-title">AMA — plataforma de doação de leite materno</div>
+        <p class="project-desc">Projeto desenvolvido em equipe durante o Pró-Profissão em Tecnologia (Senac / Instituto PROA), apresentado no auditório do Senac no Demoday e eleito projeto destaque da turma.</p>
+        <a class="video-thumb" href="https://www.youtube.com/watch?v=YTY_-gKhKiM" target="_blank" rel="noopener" aria-label="Assistir apresentação do projeto AMA no YouTube">
+          <img src="https://img.youtube.com/vi/YTY_-gKhKiM/hqdefault.jpg" alt="Apresentação do projeto AMA no Senac" loading="lazy">
+          <span class="play-btn"><span class="circle"><svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19"/></svg></span></span>
+        </a>
+        <div class="project-links">
+          <a class="btn primary" href="https://projeto-ama.vercel.app/" target="_blank" rel="noopener">Acessar site do projeto</a>
+          <a class="btn" href="https://www.youtube.com/watch?v=YTY_-gKhKiM" target="_blank" rel="noopener">Ver no YouTube</a>
+        </div>
+      </div>
+
+      <div class="video-grid">
+        <a class="video-card" href="https://www.youtube.com/watch?v=K3rPbxMGLkc" target="_blank" rel="noopener">
+          <span class="video-thumb">
+            <img src="https://img.youtube.com/vi/K3rPbxMGLkc/hqdefault.jpg" alt="" loading="lazy">
+            <span class="play-btn"><span class="circle"><svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19"/></svg></span></span>
+          </span>
+          <span class="video-card-text">
+            <span class="highlight-title">Demoday do Instituto PROA</span>
+            <span class="highlight-sub">Apresentação do stand em equipe</span>
+          </span>
+        </a>
+        <a class="video-card" href="https://www.youtube.com/watch?v=TDMG1Ebbr7E" target="_blank" rel="noopener">
+          <span class="video-thumb">
+            <img src="https://img.youtube.com/vi/TDMG1Ebbr7E/hqdefault.jpg" alt="" loading="lazy">
+            <span class="play-btn"><span class="circle"><svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19"/></svg></span></span>
+          </span>
+          <span class="video-card-text">
+            <span class="highlight-title">Rec'n'Play na Globo</span>
+            <span class="highlight-sub">Participação no evento, com cobertura da TV Globo</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiência profissional (linha do tempo) -->
+  <section id="experiencia">
+    <div class="wrap">
+      <div class="sec-head"><h2>Experiência profissional</h2></div>
+
+      <div class="job">
+        <div class="job-top">
+          <span class="job-role">Fiscal de Loja — Prevenção de Perdas</span>
+          <span class="job-date">AGO 2024 – JUN 2026</span>
+        </div>
+        <div class="job-org">Novo Atacado Comércio de Alimentos Ltda — Recife, PE</div>
+        <ul class="job-list">
+          <li>Auditorias de mercadorias no momento do recebimento</li>
+          <li>Atendimento aos clientes, direcionando-os aos setores desejados</li>
+          <li>Registro de ocorrências</li>
+          <li>Verificação de equipamentos de segurança</li>
+          <li>Controle da entrada de funcionários e clientes</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-top">
+          <span class="job-role">Auxiliar Administrativo — Jovem Aprendiz</span>
+          <span class="job-date">JAN 2021 – ABR 2022</span>
+        </div>
+        <div class="job-org">Companhia Brasileira de Trens Urbanos (CBTU) — Recife, PE</div>
+        <ul class="job-list">
+          <li>Conferência básica de materiais e registros internos</li>
+          <li>Atendimento ao público e direcionamento aos setores responsáveis</li>
+          <li>Comunicação de ocorrências à supervisão, seguindo normas da empresa</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formação acadêmica -->
+  <section id="formacao">
+    <div class="wrap">
+      <div class="sec-head"><h2>Formação acadêmica</h2></div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Análise e Desenvolvimento de Sistemas</div>
+          <div class="edu-org">Estácio de Sá — Recife, PE</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">JAN 2023 – JUL 2025</div>
+          <div class="status done">Concluído</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Pró-Profissão em Tecnologia</div>
+          <div class="edu-org">Senac / Instituto PROA — Recife, PE</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">AGO 2023 – DEZ 2023</div>
+          <div class="status done">Concluído</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Programa Transforme-se — Serasa Experian</div>
+          <div class="edu-org">Senac / Serasa — Recife, PE</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">DESDE ABR 2026</div>
+          <div class="status progress">Cursando</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificados e cursos -->
+  <section id="certificados">
+    <div class="wrap">
+      <div class="sec-head"><h2>Certificados</h2></div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Sensibilização para a Segurança Digital</div>
+          <div class="edu-org">Cisco Networking Academy · Senac-PE-Centro de Inovação e Tecnologia</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">SET 2026</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Bootcamp ServiceNow</div>
+          <div class="edu-org">Deloitte</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">JUL 2026 · 32H</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Bootcamp Shark in ServiceNow — 9ª Edição</div>
+          <div class="edu-org">Shark Academy</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">JUN 2024 · 15H</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Decola Tech 2024</div>
+          <div class="edu-org">Avanade / DIO — Digital Innovation One</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">JAN 2024 · 73H</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Programador Web Java</div>
+          <div class="edu-org">Senac</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">JUL–DEZ 2023 · 300H</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Bootcamp de Python — apresentação de bot de segurança da informação</div>
+          <div class="edu-org">Instituto PROA</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">NOV–DEZ 2023 · 10H</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Fundamentos AWS (aulas ao vivo)</div>
+          <div class="edu-org">Escola da Nuvem</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">NOV 2023 · 91H</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">AWS Technical Essentials (Português)</div>
+          <div class="edu-org">AWS Training and Certification</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">OUT 2023</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-name">Curso de Formação em Auxiliar de Escritório em Geral</div>
+          <div class="edu-org">Demã Jovem / Renapsi</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-date">JAN 2021 – ABR 2022 · 1280H</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria de fotos: Instituto PROA -->
+  <section id="galeria">
+    <div class="wrap">
+      <div class="sec-head"><h2>Galeria</h2></div>
+      <p class="gallery-intro">Alguns momentos do Pró-Profissão em Tecnologia, parceria entre o Senac e o Instituto PROA.</p>
+      <div class="gallery-grid">
+        <button class="gallery-item" data-full="assets/galeria-1.jpg" aria-label="Ampliar foto 1 da galeria">
+          <img src="assets/galeria-1.jpg" alt="Turma do Pró-Profissão em Tecnologia, Instituto PROA" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="assets/galeria-2.jpg" aria-label="Ampliar foto 2 da galeria">
+          <img src="assets/galeria-2.jpg" alt="Colegas de turma do Instituto PROA" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="assets/galeria-3.jpg" aria-label="Ampliar foto 3 da galeria">
+          <img src="assets/galeria-3.jpg" alt="Turma do Instituto PROA reunida" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="assets/galeria-4.jpg" aria-label="Ampliar foto 4 da galeria">
+          <img src="assets/galeria-4.jpg" alt="Apresentação do projeto AMA com a equipe" loading="lazy">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fotos do período trabalhando na Novo Atacarejo -->
+  <section id="atacarejo">
+    <div class="wrap">
+      <div class="sec-head"><h2>Novo Atacarejo</h2></div>
+      <p class="gallery-intro">Registros do período em que atuei como Fiscal de Loja — Prevenção de Perdas, na Novo Atacado Comércio de Alimentos.</p>
+      <div class="gallery-grid">
+        <button class="gallery-item" data-full="assets/atacarejo-1.jpg" aria-label="Ampliar foto 1">
+          <img src="assets/atacarejo-1.jpg" alt="Fachada da loja Novo Atacarejo" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="assets/atacarejo-2.jpg" aria-label="Ampliar foto 2">
+          <img src="assets/atacarejo-2.jpg" alt="Equipe de Prevenção de Perdas da Novo Atacarejo" loading="lazy">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato">
+    <div class="wrap">
+      <div class="sec-head"><h2>Contato</h2></div>
+      <a class="big-email" href="mailto:georgelucasluz@gmail.com">georgelucasluz@gmail.com</a>
+      <div class="contact-meta">
+        <a href="https://www.linkedin.com/in/georgelucasluz/" target="_blank" rel="noopener">linkedin.com/in/georgelucasluz</a>
+        <a href="https://github.com/LucasNekoo" target="_blank" rel="noopener">github.com/LucasNekoo</a>
+        <span>Recife, PE</span>
+      </div>
+      <div class="hero-actions">
+        <a id="downloadCv2" class="btn primary" href="assets/curriculo.pdf" download="George_Lucas_CV.pdf">Baixar currículo (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Rodapé -->
+<footer>
+  <p>© <span id="year"></span> George Lucas Ferreira da Luz</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- Lightbox: exibe a foto ampliada ao clicar em uma imagem da galeria -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fechar imagem">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
